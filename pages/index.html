@@ -74,7 +74,7 @@
         let user = { name: null }
         user.name = prompt("Please enter your name : ");
 
-        const socket = io(`ws://5eff51707bbe.ngrok.io/?userName=${user.name}`);
+        const socket = io(`ws://localhost:3000/?userName=${user.name}`);
 
         var form = document.getElementById('form');
         var input = document.getElementById('input');
